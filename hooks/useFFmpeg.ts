@@ -84,20 +84,32 @@ export function useFFmpeg() {
     };
 
     const processHalfLength = async (fullDuration: number) => {
-        if (!ffmpegRef.current || !loaded) return null;
+        console.log("processHalfLength called with duration:", fullDuration);
+        if (!ffmpegRef.current || !loaded) {
+            console.error("FFmpeg not loaded or ref missing");
+            return null;
+        }
         const ffmpeg = ffmpegRef.current;
         const halfDuration = fullDuration / 2;
+        console.log("Calculated half duration:", halfDuration);
 
-        await ffmpeg.exec([
-            '-i', 'output.mp4',
-            '-t', halfDuration.toString(),
-            '-c', 'copy',
-            'output_half.mp4'
-        ]);
+        try {
+            await ffmpeg.exec([
+                '-i', 'output.mp4',
+                '-t', halfDuration.toString(),
+                '-c', 'copy',
+                'output_half.mp4'
+            ]);
+            console.log("FFmpeg exec for half length complete");
 
-        const data = await ffmpeg.readFile('output_half.mp4');
-        const blobData = data instanceof Uint8Array ? data.buffer : data;
-        return new Blob([blobData as any], { type: 'video/mp4' });
+            const data = await ffmpeg.readFile('output_half.mp4');
+            console.log("Read output_half.mp4, size:", data.length);
+            const blobData = data instanceof Uint8Array ? data.buffer : data;
+            return new Blob([blobData as any], { type: 'video/mp4' });
+        } catch (e) {
+            console.error("Error in processHalfLength:", e);
+            return null;
+        }
     };
 
     return { loaded, load, processFusion, processHalfLength, progress };

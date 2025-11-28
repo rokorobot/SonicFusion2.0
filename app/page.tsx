@@ -41,17 +41,26 @@ export default function Home() {
     try {
       if (!loaded) await loadFFmpeg();
 
+      console.log("Starting fusion process...");
       const blob = await processFusion(audioFile, videoFiles);
+      console.log("Fusion complete, blob size:", blob.size);
       const url = URL.createObjectURL(blob);
       setDownloadUrl(url);
 
       // Generate half length version immediately after
       if (processHalfLength) {
+        console.log("Starting half-length process. Duration:", audioDuration);
         const halfBlob = await processHalfLength(audioDuration);
+        console.log("Half-length blob result:", halfBlob);
         if (halfBlob) {
+          console.log("Half-length blob size:", halfBlob.size);
           const halfUrl = URL.createObjectURL(halfBlob);
           setHalfDownloadUrl(halfUrl);
+        } else {
+          console.error("Half-length blob is null");
         }
+      } else {
+        console.error("processHalfLength is not defined");
       }
 
     } catch (error) {
