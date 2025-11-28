@@ -83,5 +83,22 @@ export function useFFmpeg() {
         return new Blob([blobData as any], { type: 'video/mp4' });
     };
 
-    return { loaded, load, processFusion, progress };
+    const processHalfLength = async (fullDuration: number) => {
+        if (!ffmpegRef.current || !loaded) return null;
+        const ffmpeg = ffmpegRef.current;
+        const halfDuration = fullDuration / 2;
+
+        await ffmpeg.exec([
+            '-i', 'output.mp4',
+            '-t', halfDuration.toString(),
+            '-c', 'copy',
+            'output_half.mp4'
+        ]);
+
+        const data = await ffmpeg.readFile('output_half.mp4');
+        const blobData = data instanceof Uint8Array ? data.buffer : data;
+        return new Blob([blobData as any], { type: 'video/mp4' });
+    };
+
+    return { loaded, load, processFusion, processHalfLength, progress };
 }

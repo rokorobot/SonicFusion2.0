@@ -14,18 +14,21 @@ export default function Home() {
   const [audioDuration, setAudioDuration] = useState<number>(0);
   const [videoFiles, setVideoFiles] = useState<File[]>([]);
   const [downloadUrl, setDownloadUrl] = useState<string | null>(null);
+  const [halfDownloadUrl, setHalfDownloadUrl] = useState<string | null>(null);
 
-  const { processFusion, progress, load: loadFFmpeg, loaded } = useFFmpeg();
+  const { processFusion, processHalfLength, progress, load: loadFFmpeg, loaded } = useFFmpeg();
 
   const handleAudioSelected = (file: File | null, duration: number) => {
     setAudioFile(file);
     setAudioDuration(duration);
     setDownloadUrl(null);
+    setHalfDownloadUrl(null);
   };
 
   const handleVideosSelected = (files: File[]) => {
     setVideoFiles(files);
     setDownloadUrl(null);
+    setHalfDownloadUrl(null);
   };
 
   const handleProcess = async () => {
@@ -33,6 +36,7 @@ export default function Home() {
 
     setIsProcessing(true);
     setDownloadUrl(null);
+    setHalfDownloadUrl(null);
 
     try {
       if (!loaded) await loadFFmpeg();
@@ -40,6 +44,16 @@ export default function Home() {
       const blob = await processFusion(audioFile, videoFiles);
       const url = URL.createObjectURL(blob);
       setDownloadUrl(url);
+
+      // Generate half length version immediately after
+      if (processHalfLength) {
+        const halfBlob = await processHalfLength(audioDuration);
+        if (halfBlob) {
+          const halfUrl = URL.createObjectURL(halfBlob);
+          setHalfDownloadUrl(halfUrl);
+        }
+      }
+
     } catch (error) {
       console.error("Processing failed:", error);
       alert("Processing failed. See console for details.");
@@ -150,14 +164,26 @@ export default function Home() {
                   )}
 
                   {downloadUrl ? (
-                    <a
-                      href={downloadUrl}
-                      download="fusion_output.mp4"
-                      className="px-8 py-4 rounded-xl font-semibold flex items-center gap-2 bg-green-600 text-white shadow-lg shadow-green-600/20 hover:shadow-green-600/40 transition-all transform hover:scale-105 active:scale-95"
-                    >
-                      <Download className="w-5 h-5" />
-                      Download MP4
-                    </a>
+                    <div className="flex gap-2">
+                      <a
+                        href={downloadUrl}
+                        download="fusion_output.mp4"
+                        className="px-6 py-4 rounded-xl font-semibold flex items-center gap-2 bg-green-600 text-white shadow-lg shadow-green-600/20 hover:shadow-green-600/40 transition-all transform hover:scale-105 active:scale-95"
+                      >
+                        <Download className="w-5 h-5" />
+                        Full
+                      </a>
+                      {halfDownloadUrl && (
+                        <a
+                          href={halfDownloadUrl}
+                          download="fusion_output_half.mp4"
+                          className="px-6 py-4 rounded-xl font-semibold flex items-center gap-2 bg-purple-600 text-white shadow-lg shadow-purple-600/20 hover:shadow-purple-600/40 transition-all transform hover:scale-105 active:scale-95"
+                        >
+                          <Download className="w-5 h-5" />
+                          Half
+                        </a>
+                      )}
+                    </div>
                   ) : (
                     <button
                       onClick={handleProcess}
