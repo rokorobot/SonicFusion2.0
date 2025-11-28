@@ -1,0 +1,395 @@
+[00:00:01.295] Server  LOG      ✓ Ready in 903ms
+[00:00:43.989] Server  ERROR   C:\Users\Robert\.gemini\antigravity\playground\spatial-triangulum\app\.next\dev\server\chunks\ssr\node_modules_f636bfb1._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:43.990] Server  ERROR   C:\Users\Robert\.gemini\antigravity\playground\spatial-triangulum\app\.next\dev\server\chunks\ssr\[root-of-the-server]__a0ededd9._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:43.990] Server  ERROR    ⨯ Error: ffmpeg.wasm does not support nodejs
+[00:00:44.248] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:26.844] Browser LOG     ffmpeg version 5.1.4 Copyright (c) 2000-2023 the FFmpeg developers
+[00:02:26.844] Browser LOG     ffmpeg version 5.1.4 Copyright (c) 2000-2023 the FFmpeg developers
+[00:02:26.844] Browser LOG       built with emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.40 (5c27e79dd0a9c4e27ef2326841698cdd4f6b5784)
+[00:02:26.844] Browser LOG       built with emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.40 (5c27e79dd0a9c4e27ef2326841698cdd4f6b5784)
+[00:02:26.844] Browser LOG       configuration: --target-os=none --arch=x86_32 --enable-cross-compile --disable-asm --disable-stripping --disable-programs --disable-doc --disable-debug --disable-runtime-cpudetect --disable-autodetect --nm=emnm --ar=emar --ranlib=emranlib --cc=emcc --cxx=em++ --objcc=emcc --dep-cc=emcc --extra-cflags='-I/opt/include -O3 -msimd128' --extra-cxxflags='-I/opt/include -O3 -msimd128' --disable-pthreads --disable-w32threads --disable-os2threads --enable-gpl --enable-libx264 --enable-libx265 --enable-libvpx --enable-libmp3lame --enable-libtheora --enable-libvorbis --enable-libopus --enable-zlib --enable-libwebp --enable-libfreetype --enable-libfribidi --enable-libass --enable-libzimg
+[00:02:26.844] Browser LOG       configuration: --target-os=none --arch=x86_32 --enable-cross-compile --disable-asm --disable-stripping --disable-programs --disable-doc --disable-debug --disable-runtime-cpudetect --disable-autodetect --nm=emnm --ar=emar --ranlib=emranlib --cc=emcc --cxx=em++ --objcc=emcc --dep-cc=emcc --extra-cflags='-I/opt/include -O3 -msimd128' --extra-cxxflags='-I/opt/include -O3 -msimd128' --disable-pthreads --disable-w32threads --disable-os2threads --enable-gpl --enable-libx264 --enable-libx265 --enable-libvpx --enable-libmp3lame --enable-libtheora --enable-libvorbis --enable-libopus --enable-zlib --enable-libwebp --enable-libfreetype --enable-libfribidi --enable-libass --enable-libzimg
+[00:02:26.844] Browser LOG       libavutil      57. 28.100 / 57. 28.100
+[00:02:26.844] Browser LOG       libavutil      57. 28.100 / 57. 28.100
+[00:02:26.844] Browser LOG       libavcodec     59. 37.100 / 59. 37.100
+[00:02:26.844] Browser LOG       libavcodec     59. 37.100 / 59. 37.100
+[00:02:26.844] Browser LOG       libavformat    59. 27.100 / 59. 27.100
+[00:02:26.844] Browser LOG       libavformat    59. 27.100 / 59. 27.100
+[00:02:26.844] Browser LOG       libavdevice    59.  7.100 / 59.  7.100
+[00:02:26.844] Browser LOG       libavdevice    59.  7.100 / 59.  7.100
+[00:02:26.844] Browser LOG       libavfilter     8. 44.100 /  8. 44.100
+[00:02:26.844] Browser LOG       libavfilter     8. 44.100 /  8. 44.100
+[00:02:26.844] Browser LOG       libswscale      6.  7.100 /  6.  7.100
+[00:02:26.844] Browser LOG       libswscale      6.  7.100 /  6.  7.100
+[00:02:26.844] Browser LOG       libswresample   4.  7.100 /  4.  7.100
+[00:02:26.844] Browser LOG       libswresample   4.  7.100 /  4.  7.100
+[00:02:26.844] Browser LOG       libpostproc    56.  6.100 / 56.  6.100
+[00:02:26.844] Browser LOG       libpostproc    56.  6.100 / 56.  6.100
+[00:02:26.844] Browser LOG     [mov,mp4,m4a,3gp,3g2,mj2 @ 0xdf30c0] Auto-inserting h264_mp4toannexb bitstream filter
+[00:02:26.844] Browser LOG     [mov,mp4,m4a,3gp,3g2,mj2 @ 0xdf30c0] Auto-inserting h264_mp4toannexb bitstream filter
+[00:02:26.844] Browser LOG     Input #0, concat, from 'concat_list.txt':
+[00:02:26.844] Browser LOG     Input #0, concat, from 'concat_list.txt':
+[00:02:26.844] Browser LOG       Duration: N/A, start: -0.023220, bitrate: 3364 kb/s
+[00:02:26.844] Browser LOG       Duration: N/A, start: -0.023220, bitrate: 3364 kb/s
+[00:02:26.844] Browser LOG       Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 464x688, 3235 kb/s, 24 fps, 24 tbr, 12288 tbn
+[00:02:26.844] Browser LOG       Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 464x688, 3235 kb/s, 24 fps, 24 tbr, 12288 tbn
+[00:02:26.844] Browser LOG         Metadata:
+[00:02:26.844] Browser LOG         Metadata:
+[00:02:26.844] Browser LOG           handler_name    : VideoHandler
+[00:02:26.844] Browser LOG           handler_name    : VideoHandler
+[00:02:26.844] Browser LOG           vendor_id       : [0][0][0][0]
+[00:02:26.844] Browser LOG           vendor_id       : [0][0][0][0]
+[00:02:26.844] Browser LOG       Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s
+[00:02:26.844] Browser LOG       Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s
+[00:02:26.844] Browser LOG         Metadata:
+[00:02:26.844] Browser LOG         Metadata:
+[00:02:26.844] Browser LOG           handler_name    : SoundHandler
+[00:02:26.844] Browser LOG           handler_name    : SoundHandler
+[00:02:26.844] Browser LOG           vendor_id       : [0][0][0][0]
+[00:02:26.844] Browser LOG           vendor_id       : [0][0][0][0]
+[00:02:26.844] Browser LOG     Output #0, mp4, to 'combined.mp4':
+[00:02:26.844] Browser LOG     Output #0, mp4, to 'combined.mp4':
+[00:02:26.844] Browser LOG       Metadata:
+[00:02:26.844] Browser LOG       Metadata:
+[00:02:26.844] Browser LOG         encoder         : Lavf59.27.100
+[00:02:26.844] Browser LOG         encoder         : Lavf59.27.100
+[00:02:26.844] Browser LOG       Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 464x688, q=2-31, 3235 kb/s, 24 fps, 24 tbr, 12288 tbn
+[00:02:26.844] Browser LOG       Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 464x688, q=2-31, 3235 kb/s, 24 fps, 24 tbr, 12288 tbn
+[00:02:26.844] Browser LOG         Metadata:
+[00:02:26.844] Browser LOG         Metadata:
+[00:02:26.844] Browser LOG           handler_name    : VideoHandler
+[00:02:26.844] Browser LOG           handler_name    : VideoHandler
+[00:02:26.844] Browser LOG           vendor_id       : [0][0][0][0]
+[00:02:26.844] Browser LOG           vendor_id       : [0][0][0][0]
+[00:02:26.844] Browser LOG       Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s
+[00:02:26.844] Browser LOG       Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s
+[00:02:26.844] Browser LOG         Metadata:
+[00:02:26.844] Browser LOG         Metadata:
+[00:02:26.844] Browser LOG           handler_name    : SoundHandler
+[00:02:26.844] Browser LOG           handler_name    : SoundHandler
+[00:02:26.844] Browser LOG           vendor_id       : [0][0][0][0]
+[00:02:26.844] Browser LOG           vendor_id       : [0][0][0][0]
+[00:02:26.844] Browser LOG     Stream mapping:
+[00:02:26.844] Browser LOG     Stream mapping:
+[00:02:26.844] Browser LOG       Stream #0:0 -> #0:0 (copy)
+[00:02:26.844] Browser LOG       Stream #0:0 -> #0:0 (copy)
+[00:02:26.844] Browser LOG       Stream #0:1 -> #0:1 (copy)
+[00:02:26.844] Browser LOG       Stream #0:1 -> #0:1 (copy)
+[00:02:26.844] Browser LOG     frame=    1 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    
+[00:02:26.844] Browser LOG     frame=    1 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    
+[00:02:26.844] Browser LOG     [mov,mp4,m4a,3gp,3g2,mj2 @ 0xdfb430] Auto-inserting h264_mp4toannexb bitstream filter
+[00:02:26.844] Browser LOG     [mov,mp4,m4a,3gp,3g2,mj2 @ 0xdfb430] Auto-inserting h264_mp4toannexb bitstream filter
+[00:02:26.844] Browser LOG         Last message repeated 1 times    Last message repeated 1 times
+[00:02:26.844] Browser LOG         Last message repeated 1 times    Last message repeated 1 times
+[00:02:26.844] Browser LOG     [mov,mp4,m4a,3gp,3g2,mj2 @ 0x10723e0] Auto-inserting h264_mp4toannexb bitstream filter
+[00:02:26.844] Browser LOG     [mov,mp4,m4a,3gp,3g2,mj2 @ 0x10723e0] Auto-inserting h264_mp4toannexb bitstream filter
+[00:02:26.844] Browser LOG         Last message repeated 1 times    Last message repeated 1 times
+[00:02:26.844] Browser LOG         Last message repeated 1 times    Last message repeated 1 times
+[00:02:26.844] Browser LOG     [mov,mp4,m4a,3gp,3g2,mj2 @ 0x1072710] stream 0, timescale not set
+[00:02:26.844] Browser LOG     [mov,mp4,m4a,3gp,3g2,mj2 @ 0x1072710] stream 0, timescale not set
+[00:02:26.844] Browser LOG     [mov,mp4,m4a,3gp,3g2,mj2 @ 0x1072710] Auto-inserting h264_mp4toannexb bitstream filter
+[00:02:26.844] Browser LOG     [mov,mp4,m4a,3gp,3g2,mj2 @ 0x1072710] Auto-inserting h264_mp4toannexb bitstream filter
+[00:02:26.844] Browser LOG     [concat @ 0xdea200] New video stream 0:2 at pos:6258 and DTS:0s
+[00:02:26.844] Browser LOG     [concat @ 0xdea200] New video stream 0:2 at pos:6258 and DTS:0s
+[00:02:26.844] Browser LOG     [mov,mp4,m4a,3gp,3g2,mj2 @ 0xeeedc0] Auto-inserting h264_mp4toannexb bitstream filter
+[00:02:26.844] Browser LOG     [mov,mp4,m4a,3gp,3g2,mj2 @ 0xeeedc0] Auto-inserting h264_mp4toannexb bitstream filter
+[00:02:26.844] Browser LOG     [mov,mp4,m4a,3gp,3g2,mj2 @ 0x1072710] Auto-inserting h264_mp4toannexb bitstream filter
+[00:02:26.844] Browser LOG     [mov,mp4,m4a,3gp,3g2,mj2 @ 0x1072710] Auto-inserting h264_mp4toannexb bitstream filter
+[00:02:26.844] Browser LOG     [mov,mp4,m4a,3gp,3g2,mj2 @ 0xfa1580] Auto-inserting h264_mp4toannexb bitstream filter
+[00:02:26.844] Browser LOG     [mov,mp4,m4a,3gp,3g2,mj2 @ 0xfa1580] Auto-inserting h264_mp4toannexb bitstream filter
+[00:02:26.844] Browser LOG     frame= 1305 fps=0.0 q=-1.0 Lsize=   16483kB time=00:00:54.34 bitrate=2484.4kbits/s speed= 323x    
+[00:02:26.844] Browser LOG     frame= 1305 fps=0.0 q=-1.0 Lsize=   16483kB time=00:00:54.34 bitrate=2484.4kbits/s speed= 323x    
+[00:02:26.844] Browser LOG     video:15591kB audio:845kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.280759%
+[00:02:26.844] Browser LOG     video:15591kB audio:845kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.280759%
+[00:02:26.844] Browser LOG     Aborted()
+[00:02:26.844] Browser LOG     Aborted()
+[00:02:26.844] Browser LOG     ffmpeg version 5.1.4 Copyright (c) 2000-2023 the FFmpeg developers
+[00:02:26.844] Browser LOG     ffmpeg version 5.1.4 Copyright (c) 2000-2023 the FFmpeg developers
+[00:02:26.844] Browser LOG       built with emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.40 (5c27e79dd0a9c4e27ef2326841698cdd4f6b5784)
+[00:02:26.844] Browser LOG       built with emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.40 (5c27e79dd0a9c4e27ef2326841698cdd4f6b5784)
+[00:02:26.844] Browser LOG       configuration: --target-os=none --arch=x86_32 --enable-cross-compile --disable-asm --disable-stripping --disable-programs --disable-doc --disable-debug --disable-runtime-cpudetect --disable-autodetect --nm=emnm --ar=emar --ranlib=emranlib --cc=emcc --cxx=em++ --objcc=emcc --dep-cc=emcc --extra-cflags='-I/opt/include -O3 -msimd128' --extra-cxxflags='-I/opt/include -O3 -msimd128' --disable-pthreads --disable-w32threads --disable-os2threads --enable-gpl --enable-libx264 --enable-libx265 --enable-libvpx --enable-libmp3lame --enable-libtheora --enable-libvorbis --enable-libopus --enable-zlib --enable-libwebp --enable-libfreetype --enable-libfribidi --enable-libass --enable-libzimg
+[00:02:26.844] Browser LOG       configuration: --target-os=none --arch=x86_32 --enable-cross-compile --disable-asm --disable-stripping --disable-programs --disable-doc --disable-debug --disable-runtime-cpudetect --disable-autodetect --nm=emnm --ar=emar --ranlib=emranlib --cc=emcc --cxx=em++ --objcc=emcc --dep-cc=emcc --extra-cflags='-I/opt/include -O3 -msimd128' --extra-cxxflags='-I/opt/include -O3 -msimd128' --disable-pthreads --disable-w32threads --disable-os2threads --enable-gpl --enable-libx264 --enable-libx265 --enable-libvpx --enable-libmp3lame --enable-libtheora --enable-libvorbis --enable-libopus --enable-zlib --enable-libwebp --enable-libfreetype --enable-libfribidi --enable-libass --enable-libzimg
+[00:02:26.844] Browser LOG       libavutil      57. 28.100 / 57. 28.100
+[00:02:26.844] Browser LOG       libavutil      57. 28.100 / 57. 28.100
+[00:02:26.844] Browser LOG       libavcodec     59. 37.100 / 59. 37.100
+[00:02:26.844] Browser LOG       libavcodec     59. 37.100 / 59. 37.100
+[00:02:26.844] Browser LOG       libavformat    59. 27.100 / 59. 27.100
+[00:02:26.844] Browser LOG       libavformat    59. 27.100 / 59. 27.100
+[00:02:26.844] Browser LOG       libavdevice    59.  7.100 / 59.  7.100
+[00:02:26.844] Browser LOG       libavdevice    59.  7.100 / 59.  7.100
+[00:02:26.844] Browser LOG       libavfilter     8. 44.100 /  8. 44.100
+[00:02:26.844] Browser LOG       libavfilter     8. 44.100 /  8. 44.100
+[00:02:26.844] Browser LOG       libswscale      6.  7.100 /  6.  7.100
+[00:02:26.844] Browser LOG       libswscale      6.  7.100 /  6.  7.100
+[00:02:26.844] Browser LOG       libswresample   4.  7.100 /  4.  7.100
+[00:02:26.844] Browser LOG       libswresample   4.  7.100 /  4.  7.100
+[00:02:26.844] Browser LOG       libpostproc    56.  6.100 / 56.  6.100
+[00:02:26.844] Browser LOG       libpostproc    56.  6.100 / 56.  6.100
+[00:02:26.844] Browser LOG     Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'combined.mp4':
+[00:02:26.844] Browser LOG     Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'combined.mp4':
+[00:02:26.844] Browser LOG       Metadata:
+[00:02:26.844] Browser LOG       Metadata:
+[00:02:26.844] Browser LOG         major_brand     : isom
+[00:02:26.844] Browser LOG         major_brand     : isom
+[00:02:26.844] Browser LOG         minor_version   : 512
+[00:02:26.844] Browser LOG         minor_version   : 512
+[00:02:26.844] Browser LOG         compatible_brands: isomiso2avc1mp41
+[00:02:26.844] Browser LOG         compatible_brands: isomiso2avc1mp41
+[00:02:26.844] Browser LOG         encoder         : Lavf59.27.100
+[00:02:26.844] Browser LOG         encoder         : Lavf59.27.100
+[00:02:26.844] Browser LOG       Duration: 00:00:54.40, start: 0.000000, bitrate: 2482 kb/s
+[00:02:26.844] Browser LOG       Duration: 00:00:54.40, start: 0.000000, bitrate: 2482 kb/s
+[00:02:26.844] Browser LOG       Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 464x688, 2349 kb/s, 24 fps, 24 tbr, 12288 tbn (default)
+[00:02:26.845] Browser LOG       Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 464x688, 2349 kb/s, 24 fps, 24 tbr, 12288 tbn (default)
+[00:02:26.845] Browser LOG         Metadata:
+[00:02:26.845] Browser LOG         Metadata:
+[00:02:26.845] Browser LOG           handler_name    : VideoHandler
+[00:02:26.845] Browser LOG           handler_name    : VideoHandler
+[00:02:26.845] Browser LOG           vendor_id       : [0][0][0][0]
+[00:02:26.845] Browser LOG           vendor_id       : [0][0][0][0]
+[00:02:26.845] Browser LOG       Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)
+[00:02:26.845] Browser LOG       Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)
+[00:02:26.845] Browser LOG         Metadata:
+[00:02:26.845] Browser LOG         Metadata:
+[00:02:26.845] Browser LOG           handler_name    : SoundHandler
+[00:02:26.845] Browser LOG           handler_name    : SoundHandler
+[00:02:26.845] Browser LOG           vendor_id       : [0][0][0][0]
+[00:02:26.845] Browser LOG           vendor_id       : [0][0][0][0]
+[00:02:26.845] Browser LOG     Input #1, mp3, from 'audio.mp3':
+[00:02:26.845] Browser LOG     Input #1, mp3, from 'audio.mp3':
+[00:02:26.845] Browser LOG       Metadata:
+[00:02:26.845] Browser LOG       Metadata:
+[00:02:26.845] Browser LOG         title           : Robotic Love
+[00:02:26.845] Browser LOG         title           : Robotic Love
+[00:02:26.845] Browser LOG         artist          : rokorobot
+[00:02:26.845] Browser LOG         artist          : rokorobot
+[00:02:26.845] Browser LOG       Duration: 00:02:16.99, start: 0.023021, bitrate: 170 kb/s
+[00:02:26.845] Browser LOG       Duration: 00:02:16.99, start: 0.023021, bitrate: 170 kb/s
+[00:02:26.845] Browser LOG       Stream #1:0: Audio: mp3, 48000 Hz, stereo, fltp, 168 kb/s
+[00:02:26.845] Browser LOG       Stream #1:0: Audio: mp3, 48000 Hz, stereo, fltp, 168 kb/s
+[00:02:26.845] Browser LOG         Metadata:
+[00:02:26.845] Browser LOG         Metadata:
+[00:02:26.845] Browser LOG           encoder         : Lavc60.31
+[00:02:26.845] Browser LOG           encoder         : Lavc60.31
+[00:02:26.845] Browser LOG       Stream #1:1: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 360x360 [SAR 1:1 DAR 1:1], 90k tbr, 90k tbn (attached pic)
+[00:02:26.845] Browser LOG       Stream #1:1: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 360x360 [SAR 1:1 DAR 1:1], 90k tbr, 90k tbn (attached pic)
+[00:02:26.845] Browser LOG         Metadata:
+[00:02:26.845] Browser LOG         Metadata:
+[00:02:26.845] Browser LOG           title           : Cover
+[00:02:26.845] Browser LOG           title           : Cover
+[00:02:26.845] Browser LOG           comment         : Cover (front)
+[00:02:26.845] Browser LOG           comment         : Cover (front)
+[00:02:26.845] Browser LOG     Stream mapping:
+[00:02:26.845] Browser LOG     Stream mapping:
+[00:02:26.845] Browser LOG       Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+[00:02:26.845] Browser LOG       Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+[00:02:26.845] Browser LOG       Stream #1:0 -> #0:1 (copy)
+[00:02:26.845] Browser LOG       Stream #1:0 -> #0:1 (copy)
+[00:02:26.845] Browser LOG     [libx264 @ 0xfb8ca0] using cpu capabilities: none!
+[00:02:26.845] Browser LOG     [libx264 @ 0xfb8ca0] using cpu capabilities: none!
+[00:02:26.845] Browser LOG     [libx264 @ 0xfb8ca0] profile Constrained Baseline, level 3.0, 4:2:0, 8-bit
+[00:02:26.845] Browser LOG     [libx264 @ 0xfb8ca0] profile Constrained Baseline, level 3.0, 4:2:0, 8-bit
+[00:02:26.845] Browser LOG     [libx264 @ 0xfb8ca0] 264 - core 164 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=24 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=0
+[00:02:26.845] Browser LOG     [libx264 @ 0xfb8ca0] 264 - core 164 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=24 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=0
+[00:02:26.845] Browser LOG     Output #0, mp4, to 'output.mp4':
+[00:02:26.845] Browser LOG     Output #0, mp4, to 'output.mp4':
+[00:02:26.845] Browser LOG       Metadata:
+[00:02:26.845] Browser LOG       Metadata:
+[00:02:26.845] Browser LOG         major_brand     : isom
+[00:02:26.845] Browser LOG         major_brand     : isom
+[00:02:26.845] Browser LOG         minor_version   : 512
+[00:02:26.845] Browser LOG         minor_version   : 512
+[00:02:26.845] Browser LOG         compatible_brands: isomiso2avc1mp41
+[00:02:26.845] Browser LOG         compatible_brands: isomiso2avc1mp41
+[00:02:26.845] Browser LOG         encoder         : Lavf59.27.100
+[00:02:26.845] Browser LOG         encoder         : Lavf59.27.100
+[00:02:26.845] Browser LOG       Stream #0:0(und): Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 464x688, q=2-31, 24 fps, 12288 tbn (default)
+[00:02:26.845] Browser LOG       Stream #0:0(und): Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 464x688, q=2-31, 24 fps, 12288 tbn (default)
+[00:02:26.845] Browser LOG         Metadata:
+[00:02:26.845] Browser LOG         Metadata:
+[00:02:26.845] Browser LOG           handler_name    : VideoHandler
+[00:02:26.845] Browser LOG           handler_name    : VideoHandler
+[00:02:26.845] Browser LOG           vendor_id       : [0][0][0][0]
+[00:02:26.845] Browser LOG           vendor_id       : [0][0][0][0]
+[00:02:26.845] Browser LOG           encoder         : Lavc59.37.100 libx264
+[00:02:26.845] Browser LOG           encoder         : Lavc59.37.100 libx264
+[00:02:26.845] Browser LOG         Side data:
+[00:02:26.845] Browser LOG         Side data:
+[00:02:26.845] Browser LOG           cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+[00:02:26.845] Browser LOG           cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+[00:02:26.845] Browser LOG       Stream #0:1: Audio: mp3 (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 168 kb/s
+[00:02:26.845] Browser LOG       Stream #0:1: Audio: mp3 (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 168 kb/s
+[00:02:26.845] Browser LOG         Metadata:
+[00:02:26.845] Browser LOG         Metadata:
+[00:02:26.845] Browser LOG           encoder         : Lavc60.31
+[00:02:26.845] Browser LOG           encoder         : Lavc60.31
+[00:02:27.111] Browser LOG     frame=   21 fps=0.0 q=25.0 size=     256kB time=00:00:00.81 bitrate=2567.4kbits/s dup=1 drop=0 speed= 2.7x    
+[00:02:27.111] Browser LOG     frame=   21 fps=0.0 q=25.0 size=     256kB time=00:00:00.81 bitrate=2567.4kbits/s dup=1 drop=0 speed= 2.7x    
+[00:02:27.618] Browser LOG     frame=   64 fps=0.0 q=24.0 size=    1280kB time=00:00:02.59 bitrate=4044.1kbits/s dup=1 drop=0 speed=3.22x    
+[00:02:27.618] Browser LOG     frame=   64 fps=0.0 q=24.0 size=    1280kB time=00:00:02.59 bitrate=4044.1kbits/s dup=1 drop=0 speed=3.22x    
+[00:02:28.127] Browser LOG     frame=  107 fps= 82 q=25.0 size=    2048kB time=00:00:04.39 bitrate=3819.2kbits/s dup=1 drop=0 speed=3.35x    
+[00:02:28.127] Browser LOG     frame=  107 fps= 82 q=25.0 size=    2048kB time=00:00:04.39 bitrate=3819.2kbits/s dup=1 drop=0 speed=3.35x    
+[00:02:28.627] Browser LOG     frame=  150 fps= 83 q=25.0 size=    3072kB time=00:00:06.19 bitrate=4063.7kbits/s dup=1 drop=0 speed=3.42x    
+[00:02:28.627] Browser LOG     frame=  150 fps= 83 q=25.0 size=    3072kB time=00:00:06.19 bitrate=4063.7kbits/s dup=1 drop=0 speed=3.42x    
+[00:02:29.139] Browser LOG     frame=  196 fps= 84 q=23.0 size=    3584kB time=00:00:08.11 bitrate=3619.0kbits/s dup=1 drop=0 speed= 3.5x    
+[00:02:29.139] Browser LOG     frame=  196 fps= 84 q=23.0 size=    3584kB time=00:00:08.11 bitrate=3619.0kbits/s dup=1 drop=0 speed= 3.5x    
+[00:02:29.636] Browser LOG     frame=  245 fps= 87 q=22.0 size=    4352kB time=00:00:10.15 bitrate=3511.5kbits/s dup=1 drop=0 speed=3.59x    
+[00:02:29.636] Browser LOG     frame=  245 fps= 87 q=22.0 size=    4352kB time=00:00:10.15 bitrate=3511.5kbits/s dup=1 drop=0 speed=3.59x    
+[00:02:30.160] Browser LOG     frame=  299 fps= 89 q=25.0 size=    5120kB time=00:00:12.38 bitrate=3386.6kbits/s dup=1 drop=0 speed= 3.7x    
+[00:02:30.161] Browser LOG     frame=  299 fps= 89 q=25.0 size=    5120kB time=00:00:12.38 bitrate=3386.6kbits/s dup=1 drop=0 speed= 3.7x    
+[00:02:30.661] Browser LOG     frame=  341 fps= 89 q=25.0 size=    5888kB time=00:00:14.13 bitrate=3412.0kbits/s dup=1 drop=0 speed=3.67x    
+[00:02:30.661] Browser LOG     frame=  341 fps= 89 q=25.0 size=    5888kB time=00:00:14.13 bitrate=3412.0kbits/s dup=1 drop=0 speed=3.67x    
+[00:02:31.175] Browser LOG     frame=  383 fps= 88 q=25.0 size=    6656kB time=00:00:15.88 bitrate=3431.7kbits/s dup=1 drop=0 speed=3.65x    
+[00:02:31.176] Browser LOG     frame=  383 fps= 88 q=25.0 size=    6656kB time=00:00:15.88 bitrate=3431.7kbits/s dup=1 drop=0 speed=3.65x    
+[00:02:31.677] Browser LOG     frame=  424 fps= 87 q=26.0 size=    7424kB time=00:00:17.59 bitrate=3456.9kbits/s dup=1 drop=0 speed=3.61x    
+[00:02:31.677] Browser LOG     frame=  424 fps= 87 q=26.0 size=    7424kB time=00:00:17.59 bitrate=3456.9kbits/s dup=1 drop=0 speed=3.61x    
+[00:02:32.185] Browser LOG     frame=  464 fps= 86 q=23.0 size=    8192kB time=00:00:19.27 bitrate=3482.0kbits/s dup=1 drop=0 speed=3.59x    
+[00:02:32.185] Browser LOG     frame=  464 fps= 86 q=23.0 size=    8192kB time=00:00:19.27 bitrate=3482.0kbits/s dup=1 drop=0 speed=3.59x    
+[00:02:32.694] Browser LOG     frame=  505 fps= 86 q=26.0 size=    8960kB time=00:00:20.97 bitrate=3499.1kbits/s dup=1 drop=0 speed=3.57x    
+[00:02:32.694] Browser LOG     frame=  505 fps= 86 q=26.0 size=    8960kB time=00:00:20.97 bitrate=3499.1kbits/s dup=1 drop=0 speed=3.57x    
+[00:02:33.208] Browser LOG     frame=  547 fps= 86 q=25.0 size=    9728kB time=00:00:22.72 bitrate=3506.2kbits/s dup=1 drop=0 speed=3.56x    
+[00:02:33.208] Browser LOG     frame=  547 fps= 86 q=25.0 size=    9728kB time=00:00:22.72 bitrate=3506.2kbits/s dup=1 drop=0 speed=3.56x    
+[00:02:33.704] Browser LOG     frame=  589 fps= 85 q=23.0 size=   10496kB time=00:00:24.48 bitrate=3512.3kbits/s dup=1 drop=0 speed=3.55x    
+[00:02:33.704] Browser LOG     frame=  589 fps= 85 q=23.0 size=   10496kB time=00:00:24.48 bitrate=3512.3kbits/s dup=1 drop=0 speed=3.55x    
+[00:02:34.200] Browser LOG     frame=  634 fps= 86 q=24.0 size=   11008kB time=00:00:26.35 bitrate=3421.9kbits/s dup=1 drop=0 speed=3.56x    
+[00:02:34.200] Browser LOG     frame=  634 fps= 86 q=24.0 size=   11008kB time=00:00:26.35 bitrate=3421.9kbits/s dup=1 drop=0 speed=3.56x    
+[00:02:34.710] Browser LOG     frame=  687 fps= 87 q=20.0 size=   11776kB time=00:00:28.56 bitrate=3377.7kbits/s dup=1 drop=0 speed=3.62x    
+[00:02:34.710] Browser LOG     frame=  687 fps= 87 q=20.0 size=   11776kB time=00:00:28.56 bitrate=3377.7kbits/s dup=1 drop=0 speed=3.62x    
+[00:02:35.227] Browser LOG     frame=  736 fps= 88 q=23.0 size=   12288kB time=00:00:30.60 bitrate=3289.6kbits/s dup=1 drop=0 speed=3.64x    
+[00:02:35.227] Browser LOG     frame=  736 fps= 88 q=23.0 size=   12288kB time=00:00:30.60 bitrate=3289.6kbits/s dup=1 drop=0 speed=3.64x    
+[00:02:35.728] Browser LOG     frame=  784 fps= 88 q=22.0 size=   13312kB time=00:00:32.59 bitrate=3345.9kbits/s dup=1 drop=0 speed=3.66x    
+[00:02:35.728] Browser LOG     frame=  784 fps= 88 q=22.0 size=   13312kB time=00:00:32.59 bitrate=3345.9kbits/s dup=1 drop=0 speed=3.66x    
+[00:02:36.238] Browser LOG     frame=  832 fps= 88 q=23.0 size=   13824kB time=00:00:34.60 bitrate=3272.2kbits/s dup=1 drop=0 speed=3.67x    
+[00:02:36.238] Browser LOG     frame=  832 fps= 88 q=23.0 size=   13824kB time=00:00:34.60 bitrate=3272.2kbits/s dup=1 drop=0 speed=3.67x    
+[00:02:36.744] Browser LOG     frame=  879 fps= 88 q=23.0 size=   14592kB time=00:00:36.55 bitrate=3270.3kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:36.744] Browser LOG     frame=  879 fps= 88 q=23.0 size=   14592kB time=00:00:36.55 bitrate=3270.3kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:37.250] Browser LOG     frame=  924 fps= 88 q=25.0 size=   15360kB time=00:00:38.42 bitrate=3274.7kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:37.250] Browser LOG     frame=  924 fps= 88 q=25.0 size=   15360kB time=00:00:38.42 bitrate=3274.7kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:37.760] Browser LOG     frame=  970 fps= 89 q=23.0 size=   15872kB time=00:00:40.34 bitrate=3222.8kbits/s dup=1 drop=0 speed=3.69x    
+[00:02:37.760] Browser LOG     frame=  970 fps= 89 q=23.0 size=   15872kB time=00:00:40.34 bitrate=3222.8kbits/s dup=1 drop=0 speed=3.69x    
+[00:02:38.270] Browser LOG     frame= 1018 fps= 89 q=29.0 size=   16640kB time=00:00:42.36 bitrate=3217.9kbits/s dup=1 drop=0 speed= 3.7x    
+[00:02:38.270] Browser LOG     frame= 1018 fps= 89 q=29.0 size=   16640kB time=00:00:42.36 bitrate=3217.9kbits/s dup=1 drop=0 speed= 3.7x    
+[00:02:38.767] Browser LOG     frame= 1062 fps= 89 q=23.0 size=   17664kB time=00:00:44.18 bitrate=3275.0kbits/s dup=1 drop=0 speed=3.69x    
+[00:02:38.768] Browser LOG     frame= 1062 fps= 89 q=23.0 size=   17664kB time=00:00:44.18 bitrate=3275.0kbits/s dup=1 drop=0 speed=3.69x    
+[00:02:39.277] Browser LOG     frame= 1112 fps= 89 q=23.0 size=   18432kB time=00:00:46.27 bitrate=3263.1kbits/s dup=1 drop=0 speed=3.71x    
+[00:02:39.277] Browser LOG     frame= 1112 fps= 89 q=23.0 size=   18432kB time=00:00:46.27 bitrate=3263.1kbits/s dup=1 drop=0 speed=3.71x    
+[00:02:39.792] Browser LOG     frame= 1160 fps= 89 q=23.0 size=   19456kB time=00:00:48.26 bitrate=3302.3kbits/s dup=1 drop=0 speed=3.72x    
+[00:02:39.792] Browser LOG     frame= 1160 fps= 89 q=23.0 size=   19456kB time=00:00:48.26 bitrate=3302.3kbits/s dup=1 drop=0 speed=3.72x    
+[00:02:40.289] Browser LOG     frame= 1202 fps= 89 q=25.0 size=   20224kB time=00:00:50.01 bitrate=3312.4kbits/s dup=1 drop=0 speed=3.71x    
+[00:02:40.289] Browser LOG     frame= 1202 fps= 89 q=25.0 size=   20224kB time=00:00:50.01 bitrate=3312.4kbits/s dup=1 drop=0 speed=3.71x    
+[00:02:40.794] Browser LOG     frame= 1243 fps= 89 q=25.0 size=   20992kB time=00:00:51.72 bitrate=3324.9kbits/s dup=1 drop=0 speed= 3.7x    
+[00:02:40.794] Browser LOG     frame= 1243 fps= 89 q=25.0 size=   20992kB time=00:00:51.72 bitrate=3324.9kbits/s dup=1 drop=0 speed= 3.7x    
+[00:02:41.311] Browser LOG     frame= 1285 fps= 89 q=25.0 size=   21760kB time=00:00:53.47 bitrate=3333.6kbits/s dup=1 drop=0 speed=3.69x    
+[00:02:41.311] Browser LOG     frame= 1285 fps= 89 q=25.0 size=   21760kB time=00:00:53.47 bitrate=3333.6kbits/s dup=1 drop=0 speed=3.69x    
+[00:02:41.811] Browser LOG     frame= 1326 fps= 88 q=25.0 size=   22528kB time=00:00:55.17 bitrate=3344.7kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:41.811] Browser LOG     frame= 1326 fps= 88 q=25.0 size=   22528kB time=00:00:55.17 bitrate=3344.7kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:42.311] Browser LOG     frame= 1369 fps= 88 q=24.0 size=   23552kB time=00:00:56.97 bitrate=3386.3kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:42.311] Browser LOG     frame= 1369 fps= 88 q=24.0 size=   23552kB time=00:00:56.97 bitrate=3386.3kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:42.827] Browser LOG     frame= 1407 fps= 88 q=25.0 size=   24320kB time=00:00:58.56 bitrate=3402.1kbits/s dup=1 drop=0 speed=3.66x    
+[00:02:42.827] Browser LOG     frame= 1407 fps= 88 q=25.0 size=   24320kB time=00:00:58.56 bitrate=3402.1kbits/s dup=1 drop=0 speed=3.66x    
+[00:02:43.341] Browser LOG     frame= 1450 fps= 88 q=25.0 size=   25088kB time=00:01:00.36 bitrate=3404.9kbits/s dup=1 drop=0 speed=3.65x    
+[00:02:43.341] Browser LOG     frame= 1450 fps= 88 q=25.0 size=   25088kB time=00:01:00.36 bitrate=3404.9kbits/s dup=1 drop=0 speed=3.65x    
+[00:02:43.839] Browser LOG     frame= 1496 fps= 88 q=24.0 size=   25856kB time=00:01:02.25 bitrate=3402.2kbits/s dup=1 drop=0 speed=3.66x    
+[00:02:43.839] Browser LOG     frame= 1496 fps= 88 q=24.0 size=   25856kB time=00:01:02.25 bitrate=3402.2kbits/s dup=1 drop=0 speed=3.66x    
+[00:02:44.344] Browser LOG     frame= 1541 fps= 88 q=23.0 size=   26368kB time=00:01:04.15 bitrate=3367.1kbits/s dup=1 drop=0 speed=3.66x    
+[00:02:44.344] Browser LOG     frame= 1541 fps= 88 q=23.0 size=   26368kB time=00:01:04.15 bitrate=3367.1kbits/s dup=1 drop=0 speed=3.66x    
+[00:02:44.844] Browser LOG     frame= 1594 fps= 88 q=21.0 size=   27136kB time=00:01:06.36 bitrate=3349.8kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:44.844] Browser LOG     frame= 1594 fps= 88 q=21.0 size=   27136kB time=00:01:06.36 bitrate=3349.8kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:45.344] Browser LOG     frame= 1634 fps= 88 q=25.0 size=   27904kB time=00:01:08.01 bitrate=3360.8kbits/s dup=1 drop=0 speed=3.67x    
+[00:02:45.344] Browser LOG     frame= 1634 fps= 88 q=25.0 size=   27904kB time=00:01:08.01 bitrate=3360.8kbits/s dup=1 drop=0 speed=3.67x    
+[00:02:45.861] Browser LOG     frame= 1676 fps= 88 q=24.0 size=   28672kB time=00:01:09.76 bitrate=3366.6kbits/s dup=1 drop=0 speed=3.66x    
+[00:02:45.861] Browser LOG     frame= 1676 fps= 88 q=24.0 size=   28672kB time=00:01:09.76 bitrate=3366.6kbits/s dup=1 drop=0 speed=3.66x    
+[00:02:46.359] Browser LOG     frame= 1718 fps= 88 q=25.0 size=   29440kB time=00:01:11.52 bitrate=3372.1kbits/s dup=1 drop=0 speed=3.66x    
+[00:02:46.360] Browser LOG     frame= 1718 fps= 88 q=25.0 size=   29440kB time=00:01:11.52 bitrate=3372.1kbits/s dup=1 drop=0 speed=3.66x    
+[00:02:46.861] Browser LOG     frame= 1759 fps= 88 q=24.0 size=   30208kB time=00:01:13.22 bitrate=3379.5kbits/s dup=1 drop=0 speed=3.65x    
+[00:02:46.861] Browser LOG     frame= 1759 fps= 88 q=24.0 size=   30208kB time=00:01:13.22 bitrate=3379.5kbits/s dup=1 drop=0 speed=3.65x    
+[00:02:47.373] Browser LOG     frame= 1800 fps= 88 q=26.0 size=   30976kB time=00:01:14.92 bitrate=3386.6kbits/s dup=1 drop=0 speed=3.64x    
+[00:02:47.373] Browser LOG     frame= 1800 fps= 88 q=26.0 size=   30976kB time=00:01:14.92 bitrate=3386.6kbits/s dup=1 drop=0 speed=3.64x    
+[00:02:47.874] Browser LOG     frame= 1841 fps= 87 q=25.0 size=   31744kB time=00:01:16.63 bitrate=3393.4kbits/s dup=1 drop=0 speed=3.64x    
+[00:02:47.874] Browser LOG     frame= 1841 fps= 87 q=25.0 size=   31744kB time=00:01:16.63 bitrate=3393.4kbits/s dup=1 drop=0 speed=3.64x    
+[00:02:48.370] Browser LOG     frame= 1882 fps= 87 q=25.0 size=   32512kB time=00:01:18.36 bitrate=3398.9kbits/s dup=1 drop=0 speed=3.63x    
+[00:02:48.370] Browser LOG     frame= 1882 fps= 87 q=25.0 size=   32512kB time=00:01:18.36 bitrate=3398.9kbits/s dup=1 drop=0 speed=3.63x    
+[00:02:48.878] Browser LOG     frame= 1928 fps= 87 q=23.0 size=   33024kB time=00:01:20.25 bitrate=3370.8kbits/s dup=1 drop=0 speed=3.64x    
+[00:02:48.878] Browser LOG     frame= 1928 fps= 87 q=23.0 size=   33024kB time=00:01:20.25 bitrate=3370.8kbits/s dup=1 drop=0 speed=3.64x    
+[00:02:49.392] Browser LOG     frame= 1976 fps= 88 q=20.0 size=   33792kB time=00:01:22.27 bitrate=3364.7kbits/s dup=1 drop=0 speed=3.64x    
+[00:02:49.392] Browser LOG     frame= 1976 fps= 88 q=20.0 size=   33792kB time=00:01:22.27 bitrate=3364.7kbits/s dup=1 drop=0 speed=3.64x    
+[00:02:49.906] Browser LOG     frame= 2030 fps= 88 q=21.0 size=   34304kB time=00:01:24.52 bitrate=3324.5kbits/s dup=1 drop=0 speed=3.66x    
+[00:02:49.906] Browser LOG     frame= 2030 fps= 88 q=21.0 size=   34304kB time=00:01:24.52 bitrate=3324.5kbits/s dup=1 drop=0 speed=3.66x    
+[00:02:50.402] Browser LOG     frame= 2075 fps= 88 q=21.0 size=   35072kB time=00:01:26.40 bitrate=3325.3kbits/s dup=1 drop=0 speed=3.66x    
+[00:02:50.402] Browser LOG     frame= 2075 fps= 88 q=21.0 size=   35072kB time=00:01:26.40 bitrate=3325.3kbits/s dup=1 drop=0 speed=3.66x    
+[00:02:50.911] Browser LOG     frame= 2125 fps= 88 q=23.0 size=   35840kB time=00:01:28.46 bitrate=3318.8kbits/s dup=1 drop=0 speed=3.67x    
+[00:02:50.911] Browser LOG     frame= 2125 fps= 88 q=23.0 size=   35840kB time=00:01:28.46 bitrate=3318.8kbits/s dup=1 drop=0 speed=3.67x    
+[00:02:51.426] Browser LOG     frame= 2173 fps= 88 q=23.0 size=   36608kB time=00:01:30.48 bitrate=3314.4kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:51.427] Browser LOG     frame= 2173 fps= 88 q=23.0 size=   36608kB time=00:01:30.48 bitrate=3314.4kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:51.924] Browser LOG     frame= 2219 fps= 88 q=24.0 size=   37376kB time=00:01:32.40 bitrate=3313.7kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:51.924] Browser LOG     frame= 2219 fps= 88 q=24.0 size=   37376kB time=00:01:32.40 bitrate=3313.7kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:52.423] Browser LOG     frame= 2265 fps= 88 q=24.0 size=   37888kB time=00:01:34.32 bitrate=3290.7kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:52.423] Browser LOG     frame= 2265 fps= 88 q=24.0 size=   37888kB time=00:01:34.32 bitrate=3290.7kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:52.927] Browser LOG     frame= 2314 fps= 89 q=23.0 size=   38656kB time=00:01:36.36 bitrate=3286.3kbits/s dup=1 drop=0 speed=3.69x    
+[00:02:52.927] Browser LOG     frame= 2314 fps= 89 q=23.0 size=   38656kB time=00:01:36.36 bitrate=3286.3kbits/s dup=1 drop=0 speed=3.69x    
+[00:02:53.444] Browser LOG     frame= 2356 fps= 88 q=26.0 size=   39680kB time=00:01:38.11 bitrate=3313.1kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:53.444] Browser LOG     frame= 2356 fps= 88 q=26.0 size=   39680kB time=00:01:38.11 bitrate=3313.1kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:53.944] Browser LOG     frame= 2407 fps= 89 q=23.0 size=   40448kB time=00:01:40.22 bitrate=3306.1kbits/s dup=1 drop=0 speed=3.69x    
+[00:02:53.944] Browser LOG     frame= 2407 fps= 89 q=23.0 size=   40448kB time=00:01:40.22 bitrate=3306.1kbits/s dup=1 drop=0 speed=3.69x    
+[00:02:54.451] Browser LOG     frame= 2456 fps= 89 q=24.0 size=   41216kB time=00:01:42.26 bitrate=3301.6kbits/s dup=1 drop=0 speed= 3.7x    
+[00:02:54.452] Browser LOG     frame= 2456 fps= 89 q=24.0 size=   41216kB time=00:01:42.26 bitrate=3301.6kbits/s dup=1 drop=0 speed= 3.7x    
+[00:02:54.961] Browser LOG     frame= 2499 fps= 89 q=25.0 size=   42240kB time=00:01:44.06 bitrate=3325.1kbits/s dup=1 drop=0 speed= 3.7x    
+[00:02:54.961] Browser LOG     frame= 2499 fps= 89 q=25.0 size=   42240kB time=00:01:44.06 bitrate=3325.1kbits/s dup=1 drop=0 speed= 3.7x    
+[00:02:55.461] Browser LOG     frame= 2541 fps= 89 q=24.0 size=   43008kB time=00:01:45.81 bitrate=3329.5kbits/s dup=1 drop=0 speed=3.69x    
+[00:02:55.461] Browser LOG     frame= 2541 fps= 89 q=24.0 size=   43008kB time=00:01:45.81 bitrate=3329.5kbits/s dup=1 drop=0 speed=3.69x    
+[00:02:55.966] Browser LOG     frame= 2582 fps= 89 q=24.0 size=   43776kB time=00:01:47.52 bitrate=3335.3kbits/s dup=1 drop=0 speed=3.69x    
+[00:02:55.967] Browser LOG     frame= 2582 fps= 89 q=24.0 size=   43776kB time=00:01:47.52 bitrate=3335.3kbits/s dup=1 drop=0 speed=3.69x    
+[00:02:56.477] Browser LOG     frame= 2622 fps= 88 q=25.0 size=   44544kB time=00:01:49.17 bitrate=3342.3kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:56.477] Browser LOG     frame= 2622 fps= 88 q=25.0 size=   44544kB time=00:01:49.17 bitrate=3342.3kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:56.981] Browser LOG     frame= 2665 fps= 88 q=24.0 size=   45312kB time=00:01:50.97 bitrate=3344.8kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:56.981] Browser LOG     frame= 2665 fps= 88 q=24.0 size=   45312kB time=00:01:50.97 bitrate=3344.8kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:57.493] Browser LOG     frame= 2709 fps= 88 q=25.0 size=   46336kB time=00:01:52.80 bitrate=3365.1kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:57.493] Browser LOG     frame= 2709 fps= 88 q=25.0 size=   46336kB time=00:01:52.80 bitrate=3365.1kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:57.992] Browser LOG     frame= 2753 fps= 88 q=27.0 size=   47360kB time=00:01:54.64 bitrate=3384.0kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:57.992] Browser LOG     frame= 2753 fps= 88 q=27.0 size=   47360kB time=00:01:54.64 bitrate=3384.0kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:58.494] Browser LOG     frame= 2800 fps= 88 q=23.0 size=   47872kB time=00:01:56.59 bitrate=3363.6kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:58.494] Browser LOG     frame= 2800 fps= 88 q=23.0 size=   47872kB time=00:01:56.59 bitrate=3363.6kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:59.005] Browser LOG     frame= 2848 fps= 88 q=23.0 size=   48640kB time=00:01:58.60 bitrate=3359.4kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:59.005] Browser LOG     frame= 2848 fps= 88 q=23.0 size=   48640kB time=00:01:58.60 bitrate=3359.4kbits/s dup=1 drop=0 speed=3.68x    
+[00:02:59.511] Browser LOG     frame= 2902 fps= 89 q=21.0 size=   49408kB time=00:02:00.84 bitrate=3349.4kbits/s dup=1 drop=0 speed= 3.7x    
+[00:02:59.511] Browser LOG     frame= 2902 fps= 89 q=21.0 size=   49408kB time=00:02:00.84 bitrate=3349.4kbits/s dup=1 drop=0 speed= 3.7x    
+[00:03:00.016] Browser LOG     frame= 2944 fps= 89 q=25.0 size=   50176kB time=00:02:02.59 bitrate=3352.9kbits/s dup=1 drop=0 speed=3.69x    
+[00:03:00.016] Browser LOG     frame= 2944 fps= 89 q=25.0 size=   50176kB time=00:02:02.59 bitrate=3352.9kbits/s dup=1 drop=0 speed=3.69x    
+[00:03:00.527] Browser LOG     frame= 2986 fps= 89 q=25.0 size=   50944kB time=00:02:04.34 bitrate=3356.3kbits/s dup=1 drop=0 speed=3.69x    
+[00:03:00.527] Browser LOG     frame= 2986 fps= 89 q=25.0 size=   50944kB time=00:02:04.34 bitrate=3356.3kbits/s dup=1 drop=0 speed=3.69x    
+[00:03:01.028] Browser LOG     frame= 3030 fps= 89 q=25.0 size=   51712kB time=00:02:06.19 bitrate=3357.0kbits/s dup=1 drop=0 speed=3.69x    
+[00:03:01.028] Browser LOG     frame= 3030 fps= 89 q=25.0 size=   51712kB time=00:02:06.19 bitrate=3357.0kbits/s dup=1 drop=0 speed=3.69x    
+[00:03:01.525] Browser LOG     frame= 3071 fps= 88 q=24.0 size=   52224kB time=00:02:07.89 bitrate=3345.0kbits/s dup=1 drop=0 speed=3.68x    
+[00:03:01.525] Browser LOG     frame= 3071 fps= 88 q=24.0 size=   52224kB time=00:02:07.89 bitrate=3345.0kbits/s dup=1 drop=0 speed=3.68x    
+[00:03:02.037] Browser LOG     frame= 3113 fps= 88 q=26.0 size=   53248kB time=00:02:09.64 bitrate=3364.5kbits/s dup=1 drop=0 speed=3.68x    
+[00:03:02.037] Browser LOG     frame= 3113 fps= 88 q=26.0 size=   53248kB time=00:02:09.64 bitrate=3364.5kbits/s dup=1 drop=0 speed=3.68x    
+[00:03:02.534] Browser LOG     frame= 3153 fps= 88 q=25.0 size=   54016kB time=00:02:11.30 bitrate=3370.0kbits/s dup=1 drop=0 speed=3.68x    
+[00:03:02.534] Browser LOG     frame= 3153 fps= 88 q=25.0 size=   54016kB time=00:02:11.30 bitrate=3370.0kbits/s dup=1 drop=0 speed=3.68x    
+[00:03:03.036] Browser LOG     frame= 3195 fps= 88 q=24.0 size=   54784kB time=00:02:13.05 bitrate=3372.9kbits/s dup=1 drop=0 speed=3.67x    
+[00:03:03.036] Browser LOG     frame= 3195 fps= 88 q=24.0 size=   54784kB time=00:02:13.05 bitrate=3372.9kbits/s dup=1 drop=0 speed=3.67x    
+[00:03:03.544] Browser LOG     frame= 3241 fps= 88 q=23.0 size=   55296kB time=00:02:14.97 bitrate=3356.0kbits/s dup=1 drop=0 speed=3.67x    
+[00:03:03.544] Browser LOG     frame= 3241 fps= 88 q=23.0 size=   55296kB time=00:02:14.97 bitrate=3356.0kbits/s dup=1 drop=0 speed=3.67x    
+[00:03:04.076] Browser LOG     frame= 3289 fps= 88 q=20.0 size=   56064kB time=00:02:16.96 bitrate=3353.1kbits/s dup=1 drop=0 speed=3.68x    
+[00:03:04.076] Browser LOG     frame= 3289 fps= 88 q=20.0 size=   56064kB time=00:02:16.96 bitrate=3353.1kbits/s dup=1 drop=0 speed=3.68x    
+[00:03:04.076] Browser LOG     frame= 3289 fps= 88 q=20.0 Lsize=   56177kB time=00:02:17.00 bitrate=3359.1kbits/s dup=1 drop=0 speed=3.68x    
+[00:03:04.076] Browser LOG     frame= 3289 fps= 88 q=20.0 Lsize=   56177kB time=00:02:17.00 bitrate=3359.1kbits/s dup=1 drop=0 speed=3.68x    
+[00:03:04.076] Browser LOG     video:53270kB audio:2825kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.147110%
+[00:03:04.076] Browser LOG     video:53270kB audio:2825kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.147110%
+[00:03:04.076] Browser LOG     [libx264 @ 0xfb8ca0] frame I:14    Avg QP:20.71  size: 56508
+[00:03:04.076] Browser LOG     [libx264 @ 0xfb8ca0] frame I:14    Avg QP:20.71  size: 56508
+[00:03:04.076] Browser LOG     [libx264 @ 0xfb8ca0] frame P:3275  Avg QP:23.87  size: 16414
+[00:03:04.076] Browser LOG     [libx264 @ 0xfb8ca0] frame P:3275  Avg QP:23.87  size: 16414
+[00:03:04.076] Browser LOG     [libx264 @ 0xfb8ca0] mb I  I16..4: 100.0%  0.0%  0.0%
+[00:03:04.076] Browser LOG     [libx264 @ 0xfb8ca0] mb I  I16..4: 100.0%  0.0%  0.0%
+[00:03:04.076] Browser LOG     [libx264 @ 0xfb8ca0] mb P  I16..4:  9.7%  0.0%  0.0%  P16..4: 66.2%  0.0%  0.0%  0.0%  0.0%    skip:24.1%
+[00:03:04.076] Browser LOG     [libx264 @ 0xfb8ca0] mb P  I16..4:  9.7%  0.0%  0.0%  P16..4: 66.2%  0.0%  0.0%  0.0%  0.0%    skip:24.1%
+[00:03:04.076] Browser LOG     [libx264 @ 0xfb8ca0] coded y,uvDC,uvAC intra: 32.4% 49.0% 23.4% inter: 42.7% 36.0% 7.7%
+[00:03:04.076] Browser LOG     [libx264 @ 0xfb8ca0] coded y,uvDC,uvAC intra: 32.4% 49.0% 23.4% inter: 42.7% 36.0% 7.7%
+[00:03:04.077] Browser LOG     [libx264 @ 0xfb8ca0] i16 v,h,dc,p: 46% 22% 20% 12%
+[00:03:04.077] Browser LOG     [libx264 @ 0xfb8ca0] i16 v,h,dc,p: 46% 22% 20% 12%
+[00:03:04.077] Browser LOG     [libx264 @ 0xfb8ca0] i8c dc,h,v,p: 41% 22% 30%  7%
+[00:03:04.077] Browser LOG     [libx264 @ 0xfb8ca0] i8c dc,h,v,p: 41% 22% 30%  7%
+[00:03:04.077] Browser LOG     [libx264 @ 0xfb8ca0] kb/s:3184.30
+[00:03:04.077] Browser LOG     [libx264 @ 0xfb8ca0] kb/s:3184.30
+[00:03:04.077] Browser LOG     Aborted()
+[00:03:04.077] Browser LOG     Aborted()
