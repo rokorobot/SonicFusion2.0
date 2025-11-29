@@ -83,19 +83,21 @@ export function useFFmpeg() {
         return new Blob([blobData as any], { type: 'video/mp4' });
     };
 
-    const processHalfLength = async (fullDuration: number) => {
+    const processHalfLength = async (fullDuration: number, videoBlob: Blob) => {
         console.log("processHalfLength called with duration:", fullDuration);
-        if (!ffmpegRef.current || !loaded) {
-            console.error("FFmpeg not loaded or ref missing");
+        if (!ffmpegRef.current) {
+            console.error("FFmpeg ref missing");
             return null;
         }
+        if (!loaded) await load();
         const ffmpeg = ffmpegRef.current;
         const halfDuration = fullDuration / 2;
         console.log("Calculated half duration:", halfDuration);
 
         try {
+            await ffmpeg.writeFile('input_full.mp4', await fetchFile(videoBlob));
             await ffmpeg.exec([
-                '-i', 'output.mp4',
+                '-i', 'input_full.mp4',
                 '-t', halfDuration.toString(),
                 '-c', 'copy',
                 'output_half.mp4'

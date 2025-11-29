@@ -50,7 +50,7 @@ export default function Home() {
       // Generate half length version immediately after
       if (processHalfLength) {
         console.log("Starting half-length process. Duration:", audioDuration);
-        const halfBlob = await processHalfLength(audioDuration);
+        const halfBlob = await processHalfLength(audioDuration, blob);
         console.log("Half-length blob result:", halfBlob);
         if (halfBlob) {
           console.log("Half-length blob size:", halfBlob.size);
