@@ -133,7 +133,7 @@ export default function Home() {
           </div>
 
           {/* Right Column: Preview & Actions */}
-          <div className="lg:col-span-7 flex flex-col gap-6">
+          <div className="lg:col-span-7 flex flex-col gap-6 overflow-y-auto pr-2">
 
             {/* Preview Window */}
             <div className="glass-panel rounded-2xl p-1 flex-1 relative overflow-hidden group animate-fade-in" style={{ animationDelay: '0.3s' }}>
